@@ -1,4 +1,4 @@
-weight_input = input("")
+weight_input = input()
 if weight_input [-2:] in ['kg', 'KG']:
     pound = (eval(weight_input[0:-2])) * 2.2046
     print("对应的英制重量为{:.3f}磅".format(pound))
